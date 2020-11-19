@@ -1,4 +1,4 @@
-# Using NLP with Yelp to Find Business Features
+# **Using NLP with Yelp to Find Business Features**
 ---
 ---
 ---
@@ -20,7 +20,7 @@ I want to know if one can use Natural Language Processing and data from Yelp to 
 For this investigation I will be attempting to find businesses having a specific desirable (or undesirable) feature by using NLP. I will be using a 
 dataset that consists exclusively of businesses found on Yelp and a collection of user provided reviews for those businesses, along with the 
 NLP power of spaCy.  Each row of data will contain a business and a feature column made up of a miniature corpus of the reviews.  The reviews column 
-made up of the miniature corpi for each business will be tokenized by spaCy and then analyzed for words related to the feature we are in search.  The appearance 
+of the miniature corpi will be tokenized by spaCy and then analyzed for words related to the feature we are in search.  The appearance 
 of feature related words will be counted and then used to calculate a score by which a business will be classified as having the feature in question or not.
 
 <br>
@@ -31,12 +31,47 @@ of feature related words will be counted and then used to calculate a score by w
 
 <br>
 
-Data
+|Brooklyn|   |   |   |
+|---|---|---|---|
+|Zip Codes|[./data/brooklyn/bk_zips.csv](./data/brooklyn/bk_zips.csv)|   |   |
+|   |   |   |   |
+|Businesses|[./data/brooklyn/final_bklyn_biz.csv](./data/brooklyn/final_bklyn_biz.csv)|   |   |
+|   |   |   |   |
+|Reviews|[./data/brooklyn/reviews/bk_biz_and_rev.csv](./data/brooklyn/bk_biz_and_rev.csv)|   |   |
 
 <br>
 
 ---
+### Code
 
+<br>
+
+|Brooklyn|   |   |   |
+|---|---|---|---|
+|Zip Codes|[./code/zip_codes.ipynb](./code/zip_codes.ipynb)|   |   |
+|   |   |   |   |
+|Businesses|[./code/bkln_biz_combine.ipynb](./code/bkln_biz_combine.ipynb)|   |   |
+|   |   |   |   |
+|Reviews|[./code/bkln_reviews.ipynb](./code/bkln_reviews.ipynb)|   |   |
+|   |   |   |   |
+|Analyzer|[./code/bk_biz_analyzer.ipynb](./code/bk_biz_analyzer.ipynb)|   |   |
+
+<br>
+
+---
+### The Deck
+
+<br>
+
+| |
+|---|
+|**[Project Presentation Deck](https://github.com/iforani/NLP-to-find-or-confirm-features/blob/main/Hitting%20the%20Bullseye%20with%20NLP.pdf)**|
+
+
+
+<br>
+
+---
 ### Conclusion
 
 <br>
